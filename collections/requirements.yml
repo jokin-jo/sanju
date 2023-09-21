@@ -1,3 +1,4 @@
 ---
 collections:
-  - name: azure.azcollection
+ - name: azure.azcollection
+   version: 1.16.0
