@@ -3,7 +3,7 @@
   vars:
     namespacens: mynamespacens1
     resource_group: manulife_test_1
-    location: centralindia
+    location: eastus
   tasks:
     - name: Create the namespace
       azure_rm_servicebus:
