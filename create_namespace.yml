@@ -6,7 +6,7 @@
     location: centralindia
   tasks:
     - name: Create the namespace
-      azure.azcollection.azure_rm_servicebus:
+      azure_rm_servicebus:
         resource_group: "{{ resource_group }}"
         name: "{{ namespacens }}"
         location: "{{ location }}"
