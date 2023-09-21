@@ -2,11 +2,11 @@
 - hosts: localhost
   vars:
     namespacens: mynamespacens1
-    resource_group: myresourcegroup
+    resource_group: manulife_test_1
     location: centralindia
   tasks:
     - name: Create the namespace
       azure_rm_servicebus:
-    #    resource_group: "{{ resource_group }}"
+        resource_group: "{{ resource_group }}"
         name: "{{ namespacens }}"
         location: "{{ location }}"
